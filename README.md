@@ -7,17 +7,17 @@ functions similarly to Jekyll.
 Generation
 ----------
 
-    gulp
-    browserify
-    swig
-    markdown
-    sass
-    less
-    
+* gulp
+* browserify
+* swig
+* markdown
+* sass
+* less
+
 Frontend
 --------
 
-    jquery
-    bootstrap
-    react
-    flux
+* jquery
+* bootstrap
+* react
+* flux
