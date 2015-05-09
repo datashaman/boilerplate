@@ -5,7 +5,7 @@ var Constants = require('./constants.jsx');
 
 module.exports = {
   fetchData: function() {
-    AppDispatcher.dispatch({
+    return AppDispatcher.dispatch({
       actionType: Constants.FETCH_DATA
     });
   }

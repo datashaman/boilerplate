@@ -19,6 +19,11 @@ module.exports = function() {
         url: '/settings/',
         title: 'Settings'
       }
-    ]
+    ],
+    apiKey: 'AIzaSyBUE58hcq5yxNE_-tL-YCGPdfZ39mYgKTw',
+    tables: {
+      icd10: '199_jO7QswhJzgW5A2QiDtNvhA6tMVK2nFkEA7WhV',
+      causes: '1pH9j1Kq5x6SlyvHyznV5dbaLC2tT8prxUlO_LAMG'
+    }
   });
 };

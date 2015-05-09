@@ -39,7 +39,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ "/" | baseurl }}">{{ config.get('site').get('title') }}</a>
+                <a class="navbar-brand" href="{{ "/" | baseurl }}">{{ config.site.title }}</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
@@ -68,11 +68,8 @@
     <script defer src="{{ "/bower_components/bootstrap/dist/js/bootstrap.min.js" | baseurl }}"></script>
     <script defer src="{{ "/bower_components/react/react.min.js" | baseurl }}"></script>
 
-    {% if scripts %}
-    <!-- build:js /assets/{{ id }}.js -->
-    {% for script in scripts %}<script defer src="{{ script | baseurl }}"></script>
-    {% endfor %}
-    <!-- endbuild -->
+    {% if script %}
+    <script defer src="{{ "/scripts/" + id + ".js" | baseurl }}"></script>
     {% endif %}
 </body>
 

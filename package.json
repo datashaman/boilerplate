@@ -29,8 +29,8 @@
     "del": "^1.1.1",
     "emitter": "0.0.1",
     "envify": "^3.4.0",
-    "eventemitter2": "^0.4.14",
     "event-stream": "^3.3.0",
+    "eventemitter2": "^0.4.14",
     "flux": "^2.0.3",
     "gulp": "^3.8.11",
     "gulp-changed": "^1.2.1",
@@ -57,6 +57,7 @@
     "immutable": "^3.7.2",
     "lodash": "^3.8.0",
     "node-sass": "^2.1.1",
+    "oh-csv": "^1.0.0",
     "react": "^0.13.2",
     "reactify": "^1.1.0",
     "reduce": "^1.0.1",
@@ -87,5 +88,6 @@
   "bugs": {
     "url": "https://github.com/datashaman/grow/issues"
   },
-  "homepage": "https://github.com/datashaman/grow"
+  "homepage": "https://github.com/datashaman/grow",
+  "dependencies": {}
 }

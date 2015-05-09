@@ -50,12 +50,12 @@ var Index = React.createClass({
     return (<div>
       <div className="page-header">
         <div className="container">
-          <h2>{ this.state.data.get('climate') }</h2>
+          <h2>Home</h2>
         </div>
       </div>
 
       <div className="container">
-        Something
+        Content
       </div>
     </div>);
   }

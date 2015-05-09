@@ -13,6 +13,7 @@ var fs = require('fs');
 var gulp = require('gulp');
 var assets = require('./gulp/plugins/assets');
 var index = require('./gulp/plugins/index');
+var csv = require('./gulp/plugins/csv');
 var plantsSrc = require('./gulp/plugins/plants-src');
 var LibAPI = require('./src/scripts/flux/libapi.jsx');
 var path = require('path');

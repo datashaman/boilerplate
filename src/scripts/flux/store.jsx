@@ -34,17 +34,13 @@ var Store = _.assign({}, EventEmitter2.prototype, {
   },
 });
 
-function fetchData() {
-  doSomething(function() {
-      Store.emitChange();
-  });
-};
-
 AppDispatcher.register((action) => {
   switch (action.actionType) {
     case constants.FETCH_DATA:
-      fetchData();
-      break;
+      return LibAPI
+        .fetchData()
+        .then(function(res) {
+        })
   }
 });
 
